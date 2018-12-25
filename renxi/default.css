@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #ececde;
+  font-size: 14px;
+  font-family: '微软雅黑', '宋体', sans-serif;
+  color: #231F20;
+  overflow: auto;
+}
+
+a {
+  color: #000;
+  font-size: 14px;
+}
+
+#main {
+  width: 100%;
+}
+
+#wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+  margin-top: 10px;
+}
+
+#text {
+  font-family: "MV Boli";
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  left: 60px;
+  top: 2px;
+}
+
+#code {
+  display: none;
+  font-size: 16px;
+}
+
+#clock-box {
+  position: absolute;
+  left: 60px;
+  top: 470px;
+  font-size: 14px;
+  display: none;
+}
+
+#clock-box a {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#clock {
+  margin-left: 14px;
+}
+
+#clock .digit {
+  font-size: 14px;
+}
+
+#canvas {
+  padding: 0px auto;
+  margin: 0 auto;
+  width: 1100px;
+  height: 680px;
+}
+
+#error {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.say {
+  margin-left: 5px;
+}
+
+.space {
+  margin-right: 150px;
+}
